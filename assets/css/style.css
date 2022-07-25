@@ -60,7 +60,7 @@ table tr td{
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
  
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
-     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    box-shadow: 0 0 0px 1000px white inset !important;
 }
 
 /* ============= Section Padding ============= */
@@ -823,7 +823,7 @@ table.ach-table .ach:hover{
     padding: 0;
 }
 .find-us p{
-    font size: 15px;
+    font-size: 15px;
     color: #666;
 }
 .find-us p span{
